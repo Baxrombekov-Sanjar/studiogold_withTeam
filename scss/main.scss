@@ -1,0 +1,12 @@
+@import "./blocks/all-blocks";
+@import "./default";
+@import "./fonts";
+@import "./normalize";
+@import "./variables";
+@import "./mixin";
+
+.studiogold {
+  width: 1400px;
+  margin: 0 auto;
+  // border: 1px solid #000;
+}
