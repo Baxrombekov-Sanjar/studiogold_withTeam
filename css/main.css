@@ -1,5 +1,173 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
 * {
+  margin: 0% auto;
+  padding: 0%;
+}
+
+.header {
+  width: 1400px;
+  height: 900px;
+  border: var(--border);
+  background-image: url(/img/header-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.header__nav {
+  width: 100%;
+  height: 120px;
+  border: var(--border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__nav-list {
+  width: 90%;
+  height: 70px;
+  border: var(--border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__nav-list-logo {
+  width: 15%;
+  height: 100%;
+  border: var(--border);
+}
+.header__nav-list-text {
+  width: 65%;
+  height: 100%;
+  border: var(--border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__nav-list-text ul {
+  display: flex;
+}
+.header__nav-list-text li {
+  display: flex;
+  margin-left: 40px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #2F327D;
+  color: inherit;
+  text-decoration: none;
+}
+.header li {
+  background: linear-gradient(to right, rgb(100, 200, 200), rgb(100, 200, 200)), linear-gradient(to right, rgb(255, 0, 0), rgb(255, 0, 180), rgb(0, 100, 200));
+  background-size: 0% 3px, 0px 100px;
+  background-position: 100% 100%, 50% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 500ms;
+}
+.header li:hover {
+  background-size: 0 3px, 100% 3px;
+  color: #FC377E;
+  transition: 1s;
+}
+.header__nav-list-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__nav-list-btn button {
+  width: 220px;
+  height: 55px;
+  background-color: #FC377E;
+  border-radius: 80px;
+  color: white;
+  border: none;
+  box-shadow: 0px 8px 40px 0px rgba(210, 77, 101, 0.2588235294);
+}
+.header__nav-list-btn button:hover {
+  background-color: #2F327D;
+  transition: 0.5s;
+  font-size: 20px;
+}
+.header__hero {
+  width: 500px;
+  height: 500px;
+  border: var(--border);
+  margin-left: 70px;
+  margin-top: 70px;
+}
+.header__hero-text {
+  width: 100%;
+  height: 25%;
+  border: var(--border);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.header__hero-text h1 {
+  font-size: 40px;
+  color: #2F327D;
+}
+.header .span-h1 {
+  color: #FC377E;
+}
+.header__hero-h4 {
+  width: 100%;
+  height: 25%;
+  border: var(--border);
+}
+.header__hero-h4 h4 {
+  font-size: 22px;
+  color: #2F327D;
+}
+.header .span-h4 {
+  color: #FC377E;
+}
+.header .span-1600 {
+  color: #FC377E;
+}
+.header__hero-points {
+  width: 100%;
+  height: 32%;
+  border: var(--border);
+}
+.header__hero-points p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: inherit;
+  text-decoration: none;
+}
+.header p {
+  background: linear-gradient(to right, rgb(100, 200, 200), rgb(100, 200, 200)), linear-gradient(to right, rgb(255, 0, 0), rgb(255, 0, 180), rgb(0, 100, 200));
+  background-size: 0% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.header p:hover {
+  background-size: 0 3px, 100% 3px;
+}
+.header__hero-points img {
+  margin-right: 5px;
+}
+.header__hero-btn {
+  width: 100%;
+  height: 18%;
+  border: var(--border);
+  display: flex;
+  align-items: center;
+}
+.header__hero-btn button {
+  width: 220px;
+  height: 55px;
+  background-color: #FC377E;
+  border-radius: 80px;
+  color: white;
+  border: none;
+  box-shadow: 0px 8px 40px 0px rgba(210, 77, 101, 0.2588235294);
+}
+.header__hero-btn button:hover {
+  background-color: #2F327D;
+  transition: 0.5s;
+  font-size: 19px;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -83,8 +251,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -322,4 +489,6 @@ template {
 .studiogold {
   width: 1400px;
   margin: 0 auto;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
