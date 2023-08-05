@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
 * {
-  font-family: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .fourth-section {
@@ -44,7 +44,7 @@
   margin-left: 28px;
 }
 .fourth-section_container-box1-item1 div p {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 28px;
 }
 .fourth-section_container-box1-item1 div p span {
@@ -62,7 +62,7 @@
   margin-left: 28px;
 }
 .fourth-section_container-box1-item2 div p {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 28px;
 }
 .fourth-section_container-box1-item2 div p span {
@@ -80,7 +80,7 @@
   margin-left: 28px;
 }
 .fourth-section_container-box1-item3 div p {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 28px;
 }
 .fourth-section_container-box1-item3 div p span {
@@ -103,7 +103,7 @@
   margin-left: 28px;
 }
 .fourth-section_container-box2-item1 div p {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 28px;
 }
 .fourth-section_container-box2-item1 div p span {
@@ -121,7 +121,7 @@
   margin-left: 28px;
 }
 .fourth-section_container-box2-item2 div p {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 28px;
 }
 .fourth-section_container-box2-item2 div p span {
@@ -139,7 +139,7 @@
   margin-left: 28px;
 }
 .fourth-section_container-box2-item3 div p {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 28px;
 }
 .fourth-section_container-box2-item3 div p span {
