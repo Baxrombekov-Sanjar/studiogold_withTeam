@@ -1,11 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
-* {
-  margin: 0% auto;
-  padding: 0%;
+:root {
+  --border: 1px solid;
 }
 
 .header {
-  width: 1400px;
   height: 900px;
   border: var(--border);
   background-image: url(/img/header-bg.png);
@@ -489,6 +487,7 @@ template {
 .studiogold {
   width: 1400px;
   margin: 0 auto;
+  border: 1px solid #000;
 }
 
 /*# sourceMappingURL=main.css.map */
