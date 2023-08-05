@@ -1,4 +1,53 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+.about {
+  width: 100%;
+  background-color: var(--bg, #FFECEE);
+  padding: 80px 60px;
+  border-radius: 0px 32px 32px 32px;
+}
+.about h4 {
+  color: blue;
+  font-size: 25px;
+  line-height: 64px;
+}
+.about h4 span {
+  color: var(--primary, #FC377E);
+}
+.about__cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: -50px;
+}
+.about__card {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 100px;
+}
+.about__card div {
+  width: 56px;
+  height: 56px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__card div img {
+  height: 32px;
+  width: 32px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about__card p {
+  color: var(--gray, #5b5b87);
+  font-size: 16px;
+  line-height: 40px;
+}
+.about__card p span {
+  font-weight: 600;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -322,4 +371,5 @@ template {
 .studiogold {
   width: 1400px;
   margin: 0 auto;
+  border: 1px solid #000;
 }/*# sourceMappingURL=main.css.map */

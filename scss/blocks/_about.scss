@@ -1,0 +1,48 @@
+@import "../variables";
+.about {
+  width: 100%;
+  background-color: $pink2;
+  padding: 80px 60px;
+  border-radius: 0px 32px 32px 32px;
+  h4 {
+    color: $darkblue;
+    font-size: 25px;
+    line-height: 64px;
+    span {
+      color: $pink;
+    }
+  }
+  &__cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: -50px;
+  }
+  &__card {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100px;
+    div {
+      width: 56px;
+      height: 56px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: 32px;
+        width: 32px;
+        object-fit: cover;
+      }
+    }
+    p {
+      color: var(--gray, #5b5b87);
+      font-size: 16px;
+      line-height: 40px;
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+}
